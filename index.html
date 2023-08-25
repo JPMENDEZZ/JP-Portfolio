@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./assets/Logotipo-JP.jpg">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#"> <span>JP Portfólio</span> </a>
+            </div> <!--Logo-->
+            
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a class="links-menu-desktop" href="#inicio">Inicio</a></li>
+                    <li><a class="links-menu-desktop" href="#sobre">Sobre</a></li>
+                    <li><a class="links-menu-desktop" href="#habilidades">Habilidades</a></li>
+                    <li><a class="links-menu-desktop" href="#projetos-section">Projetos</a></li>
+                    <li><a class="links-menu-desktop" href="#contatos-msg">Contatos</a></li>
+                </ul>
+            </nav>
+
+            <div onclick="animarMenu()" class="menu-mobile" id="btn-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <nav class="menu-mobile-links" id="menu-mobile-links">
+                <ul>
+                    <li><a class="links-menu-mobile" href="#inicio">Inicio</a></li>
+                    <li><a class="links-menu-mobile" href href="#sobre">Sobre</a></li>
+                    <li><a class="links-menu-mobile" href href="#habilidades">Habilidades</a></li>
+                    <li><a class="links-menu-mobile" href href="#projetos-section">Projetos</a></li>
+                    <li><a class="links-menu-mobile" href href="#contatos-msg">Contatos</a></li>
+                </ul>
+            </nav>
+                
+        </div> <!--Interface-->
+    </header>
+
+    <div id="btn-topo">
+        <i class="arrow up"></i>
+    </div><!-- btn-topo -->
+
+    <main>
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Bem-vindo ao meu portfólio</h1>
+                        <h2>Eu sou um desenvolvedor <br> <span class="typed-text"></span> <span class="cursor">&nbsp;</span>
+                        </h2>
+                        </h2>
+
+                    </div> <!--img-topo-site-->
+                    <div class="img-topo-site">
+                        <img src="./assets/img-apresentação.png" alt="img-apresentação">
+                    </div> <!--txt-topo-site-->
+                </div> <!--flex-->
+            </div> <!--Interface-->
+        </section> <!--topo-do-site-->
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="./assets/perfil.jpg" alt="minha-foto" class="img-perfil">
+                    </div> <!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>Sobre mim</h2>
+                        <p>Olá, meu nome é João Pedro Mendes. Tenho 26 anos, nasci e me criei em São Paulo-SP. Estou em
+                            uma transição de carreira, quero me tornar um programador de sucesso. Desse modo, decidi
+                            entrar para a faculdade e começar a me dedicar a esse sonho de me tornar um grande
+                            programador. Já estou no quarto semestre de Análise e Desenvolvimento de Sistemas. Por amar
+                            tanto tecnologia, decidi dar mais um passo, recentemente contratei um curso de formação de
+                            programadores, que é o DevClub, estou amando tudo que estou aprendendo lá. Nesse curso já
+                            desenvolvemos alguns projetos que estarei deixando abaixo.</p>
+                        <div class="btn-cv">
+                            <a href="https://1drv.ms/b/s!Ao1cNgkESVlkgR0aEAtZQmh4vkks?e=f5BcLx" target="_blank"
+                                download="curriculo-JP"><button>Baixar CV<svg xmlns="http://www.w3.org/2000/svg"
+                                        width="16" height="16" fill="currentColor" class="bibi-download"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                                        <path
+                                            d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                                    </svg></button></a>
+                        </div>
+                    </div> <!--txt-sobre-->
+                </div> <!--Flex-->
+            </div> <!--Interface-->
+        </section> <!--Sobre-->
+
+        <section class="habilidades" id="habilidades">
+            <div class="habilidades-2">
+                <h2>Habilidades</h2>
+                <a class="link-habilidades" id="html">HTML5</a>
+                <a class="link-habilidades" id="css">CSS3</a>
+                <a class="link-habilidades" id="JavaScript">JavaScript</a>
+                <a class="link-habilidades" id="git">GuitHub</a>
+            </div>
+        </section> <!-- Habilidades -->
+
+        <section class="section-projetos" id="projetos-section">
+            <h2 class="h2-projetos">Projetos</h2>
+            <div class="div-mae">
+                <a href=" https://jpmendezz.github.io/JP-Conversao-Moedas/" target="_blank">
+                    <div class="div-img" style="background-image: url(./assets/conversor-de-moedas.png);">
+                        <div class="overlay">Conversor de
+                            moedas </div>
+                    </div>
+                </a>
+                <a href="https://jpmendezz.github.io/JP-Dev-Previsao/" target="_blank">
+                    <div class="div-img" style="background-image: url(./assets/previsão-do-tempo.png);">
+                        <div class="overlay">JP Dev Previsão</div>
+                    </div>
+                </a>
+                <a href="https://jpmendezz.github.io/Formulario/" target="_blank">
+                    <div class="div-img" style="background-image: url(./assets/fomulario.png);">
+                        <div class="overlay">Formulário</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="contatos" id="contatos-msg">
+            <div class="interface-contato">
+                <h2 class="h2-contato">Contatos</h2>
+
+                <form action="https://formsubmit.co/c96793e59e8c4eb4f9a918a39599f881" method="post">
+                    <input type="text" name="nome" placeholder="Seu nome:" required autocomplete="name">
+                    <input type="text" name="email" placeholder="Seu e-mail:" required autocomplete>
+                    <input type="text" name="" placeholder="Seu celular:" autocomplete="on">
+                    <textarea name="mensagem" placeholder="Sua mensagem:" required></textarea>
+
+                    <input type="hidden" name="_subject" value="Novo Contato!">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/teste.html">
+                    <input type="text" name="_honey" style="display: none;">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-mendes-jpm/" target="_blank"><img class="img-logo"
+                    src="./assets/logo-linkedin.png" alt="logo-linkedin"></a>
+            <a href="https://github.com/JPMENDEZZ" target="_blank"><img class="img-logo" src="./assets/logo-github.png"
+                    alt="logo-github"></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 by João Pedro Mendes <span> | Deus no comando 🙏🏻</span> </p>
+        </div>
+    </footer>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
