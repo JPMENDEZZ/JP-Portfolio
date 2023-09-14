@@ -111,7 +111,7 @@ header nav ul li {
     width: 100%;
     height: 0;
     visibility: hidden;
-    transition: 0.5s ;
+    transition: 0.5s;
     overflow: hidden;
 }
 
@@ -276,7 +276,7 @@ section.sobre .flex {
     transition: 1.2s;
 }
 
-.sobre .txt-sobre .btn-cv button:hover{
+.sobre .txt-sobre .btn-cv button:hover {
     box-shadow: 0 0 0 8px #000000a5;
     transform: scale(1.05s);
 }
@@ -308,7 +308,7 @@ section.sobre .flex {
     margin-bottom: 25px;
 }
 
-.txt-sobre p{
+.txt-sobre p {
     overflow: hidden;
     margin: 0 auto;
     display: inline-block;
@@ -595,6 +595,7 @@ footer {
 
 /* DEIXANDO O SITE RESPONSIVO */
 @media screen and (max-width: 1000px) {
+
     /* Classes Gerais */
     .flex {
         flex-direction: column;
@@ -620,7 +621,7 @@ footer {
         font-size: 15px;
     }
 
-   /* Habilidades */
+    /* Habilidades */
     #html {
         margin-left: 8px;
     }
@@ -659,11 +660,25 @@ footer {
         text-align: center;
         justify-content: center;
     }
-    
+
     /* Header */
     .menu-desktop {
         display: none;
-    } 
+    }
+
+    #btn-menu.ativo .line:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+        transition: 0.3s;
+    }
+
+    #btn-menu.ativo .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    #btn-menu.ativo .line:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+        transition: 0.3s;
+    }
 
     .interface .logo {
         width: 100%;
