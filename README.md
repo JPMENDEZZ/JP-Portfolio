@@ -8,6 +8,6 @@
 <h2>Link do projeto! 👇</h2>
 <a href="https://jpmendezz.github.io/JP-Portfolio/"><img src="https://github.com/JPMENDEZZ/Easy-Shopping/assets/124535140/6b654b40-091e-47ee-b806-997c631037d3" width="80px"></a>
 <br><br>
-<h2>Demontração do projeto! 👇</h2>
+<h2>Demonstração do projeto! 👇</h2>
 <img src="https://github.com/JPMENDEZZ/Easy-Shopping/assets/124535140/58740b5b-324d-417c-9269-b1e8a703c8ad">
 <hr>
